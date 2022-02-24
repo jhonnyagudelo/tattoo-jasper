@@ -1,10 +1,11 @@
 import React from "react";
 import { Collapsible } from "../componentes_formularios/Collapsible";
+import { Nav } from "./styles";
 const NavBar = () => {
   return (
     <>
       <section>
-        <nav>
+        <Nav>
           <figure>
             <img src="../../../assets/images/logo.jpeg" width="100" />
           </figure>
@@ -23,7 +24,9 @@ const NavBar = () => {
               <li>Christian raigosa</li>
             </ul>
           </Collapsible>
-        </nav>
+          <li>Pedir una cotizacion</li>
+          <li>Reservar una cita</li>
+        </Nav>
       </section>
     </>
   );

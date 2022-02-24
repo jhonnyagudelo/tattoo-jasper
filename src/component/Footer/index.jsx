@@ -1,10 +1,11 @@
 import React from "react";
+import { StyledFooter, Article, Parrafo } from "./styles";
 const Footer = () => {
   return (
     <>
-      <footer>
-        <article>Estudio de tatuajes</article>
-      </footer>
+      <StyledFooter>
+        <Article>Estudio de tatuajes</Article>
+      </StyledFooter>
     </>
   );
 };
